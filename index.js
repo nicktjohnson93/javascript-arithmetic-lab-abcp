@@ -14,6 +14,12 @@ function divide(one, two){
   return one / two
 }
 
+var a = 10
+
 function inc(n){
-  return n+=
+  return a += 1
+}
+
+function dec(n){
+  return a -= 1
 }
